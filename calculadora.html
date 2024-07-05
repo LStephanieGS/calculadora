@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculadora | Javascript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th colspan="2">
+                    <input id="suma1" type="number"> +
+                </th>
+                <th colspan="2">
+                    <input id="suma2" type="number">
+                </th>
+                <th>
+                    <button onclick="sumar(suma1,suma2);">Sumar</button>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input id="resta1" type="number"> -
+                </th>
+                <th colspan="2">
+                    <input id="resta2" type="number">
+                </th>
+                <th>
+                    <button onclick="restar();">Restar</button>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input id="division1" type="number"> /
+                </th>
+                <th colspan="2">
+                    <input id="division2" type="number">
+                </th>
+                <th>
+                    <button onclick="dividir();">Dividir</button>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input id="multiplicacion1" type="number"> *
+                </th>
+                <th colspan="2">
+                    <input id="multiplicacion2" type="number">
+                </th>
+                <th>
+                    <button onclick="multiplicar();">Multiplicar</button>
+                </th>
+            </tr>
+        </table>
+    </main>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
